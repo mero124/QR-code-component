@@ -1,0 +1,50 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --gray-blue: hsl(220, 15%, 55%);
+    --dark-blue:hsl(218, 44%, 22%)
+}
+
+body {
+    background-color: var(--light-gray);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 350px;
+    height: 600px;
+    background-color: var(--white);
+    border-radius: 25px;
+    margin: 150px auto;
+}
+
+img {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 18px;
+    border-radius: 15px;
+    height: 55%;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+
+p {
+    font-size: 19px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 20px;
+    margin-left: 17px;
+    color: var(--gray-blue);
+}
